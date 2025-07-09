@@ -28,6 +28,7 @@
 
 import { motion } from 'framer-motion';
 import Nav from '../components/Nav';
+import heroImage from './image.png';
 function Home() {
     // Text animation variants
     const textVariants = {
@@ -132,7 +133,7 @@ function Home() {
   </div> */} 
     <div className="relative w-full max-w-lg mx-auto">
           <div className="absolute  top-8 right-8 w-full h-full border-9 border-cyan-500 rounded-sm z-0"></div>
-          <img src="src/components/image.png" alt="" className="relative z-10 rounded-lg shadow-lg w-full h-120"/>
+          <img src={heroImage} alt="" className="relative z-10 rounded-lg shadow-lg w-full h-120"/>
         </div>
 </motion.div>
 
