@@ -1,4 +1,5 @@
 import React from 'react'
+import myImage from './image.png';
 function About(){
     return(
         <div className='  text-white p-2 md:p-10  '>
@@ -7,7 +8,7 @@ function About(){
                <div className='flex flex-col pl-4 pr-50  md:flex-row gap-3 md:gap-2 items-center justify-between'>
             <div className="relative w-full max-w-md mx-auto">
           <div className="absolute  top-8 right-8 w-full h-full border-9 border-cyan-500 rounded-sm z-0"></div>
-          <img src="src/components/image.png" alt="" className="relative z-10 rounded-lg shadow-lg w-full"/>
+          <img src={myImage} alt="" className="relative z-10 rounded-lg shadow-lg w-full"/>
         </div>
             <div>
            
