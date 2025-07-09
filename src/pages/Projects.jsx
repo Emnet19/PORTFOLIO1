@@ -3,6 +3,13 @@ import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiGithub ,SiPyth
     SiGit,SiNodedotjs,SiMongodb,SiCplusplus,SiMysql} from 'react-icons/si'
   import { FaJava,FaPhp ,} from 'react-icons/fa';
   import { Icon } from '@iconify/react';
+import bookImg from './Book1.png';
+import timeBankImg from './Time Bank.png';
+import supermarketImg from './Supermarket.png';
+import girlsWebImg from './GirlsWeb.png';
+import imageGalleryImg from './Image Gallary.png';
+
+
 function Projects() {
   return (
     <section className="bg-[#0b1120] text-white px-6 py-20">
@@ -16,7 +23,7 @@ function Projects() {
 
          <div className="relative flex-1 max-w-2xl">
           <div className="absolute top-4 right-4 w-full h-full border-6 border-cyan-500 rounded-md z-0"></div>
-          <img src="src/components/Book1.png" alt="" className="relative z-10 rounded-lg shadow-2xl w-full" />
+          <img src={bookImg} alt="" className="relative z-10 rounded-lg shadow-2xl w-full" />
         </div>
         <div className="flex-1">
           <h2 className="text-cyan-400 text-lg tracking-wide mb-2">PROJECT 1</h2>
@@ -85,7 +92,7 @@ function Projects() {
         </div>
         <div className="relative flex-1 max-w-2xl">
           <div className="absolute top-4 right-4 w-full h-full border-4 border-cyan-500 rounded-md z-0"></div>
-          <img src="src/components/Time Bank.png" alt="" className="relative z-10 rounded-lg shadow-2xl w-full" />
+          <img src={timeBankImg} alt="" className="relative z-10 rounded-lg shadow-2xl w-full" />
         </div>
       </div>
       
@@ -127,7 +134,7 @@ function Projects() {
         </div>
         <div className="relative flex-1 max-w-2xl">
           <div className="absolute top-4 left-4 w-full h-full border-4 border-cyan-500 rounded-md z-0"></div>
-          <img src="src/components/Supermarket.png" alt="" className="relative z-10 rounded-lg shadow-2xl w-full" />
+          <img src={supermarketImg} alt="" className="relative z-10 rounded-lg shadow-2xl w-full" />
         </div>
       </div>
 
@@ -137,7 +144,7 @@ function Projects() {
 
          <div className="relative flex-1 max-w-2xl">
           <div className="absolute top-4 left-4 w-full h-full border-4 border-cyan-500 rounded-md z-0"></div>
-          <img src="src/components/GirlsWeb.png" alt="" className="relative z-10 rounded-lg shadow-2xl w-full" />
+          <img src={girlsWebImg} alt="" className="relative z-10 rounded-lg shadow-2xl w-full" />
         </div>
         <div className="flex-1">
           <h2 className="text-cyan-400 text-lg tracking-wide mb-2">PROJECT 4</h2>
@@ -197,7 +204,7 @@ function Projects() {
         </div>
         <div className="relative flex-1 max-w-2xl">
           <div className="absolute top-4 left-4 w-full h-full border-4 border-cyan-500 rounded-md z-0"></div>
-          <img src="src/components/Image Gallary.png" alt="" className="relative z-10 rounded-lg shadow-2xl w-full" />
+          <img src={imageGalleryImg} alt="" className="relative z-10 rounded-lg shadow-2xl w-full" />
         </div>
       </div>
     </section>
