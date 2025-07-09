@@ -28,7 +28,8 @@
 
 import { motion } from 'framer-motion';
 import Nav from '../components/Nav';
-import heroImage from './image.png';
+import heroImage from '../components/image.png';
+
 function Home() {
     // Text animation variants
     const textVariants = {
