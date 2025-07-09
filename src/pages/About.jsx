@@ -1,5 +1,5 @@
 import React from 'react'
-import myImage from './image.png';
+import myImage from '../components/image.png';
 function About(){
     return(
         <div className='  text-white p-2 md:p-10  '>
