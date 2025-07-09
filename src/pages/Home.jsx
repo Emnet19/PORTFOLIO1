@@ -105,9 +105,17 @@ function Home() {
                         custom={3}
                         variants={textVariants}
                     >
-                        <button className='rounded-full px-10 py-2 mt-9 bg-cyan-500 text-black font-bold text-lg shadow-md hover:bg-cyan-600 transition-all duration-300'>
+{/*                         <button className='rounded-full px-10 py-2 mt-9 bg-cyan-500 text-black font-bold text-lg shadow-md hover:bg-cyan-600 transition-all duration-300'>
                             Resume
-                        </button>
+                        </button> */}
+<a
+      href="/Resume(3).pdf"       // <-- Put your PDF file in public/resume.pdf
+      target="_blank"          // <-- open in new tab
+      rel="noopener noreferrer"
+      className='rounded-full px-10 py-2 mt-9 bg-cyan-500 text-black font-bold text-lg shadow-md hover:bg-cyan-600 transition-all duration-300 inline-block text-center'
+    >
+      Resume
+    </a>
                     </motion.div>
                 </div>
 
