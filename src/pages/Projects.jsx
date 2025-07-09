@@ -3,11 +3,11 @@ import { SiHtml5, SiCss3, SiJavascript, SiReact, SiTailwindcss, SiGithub ,SiPyth
     SiGit,SiNodedotjs,SiMongodb,SiCplusplus,SiMysql} from 'react-icons/si'
   import { FaJava,FaPhp ,} from 'react-icons/fa';
   import { Icon } from '@iconify/react';
-import bookImg from './Book1.png';
-import timeBankImg from './Time Bank.png';
-import supermarketImg from './Supermarket.png';
-import girlsWebImg from './GirlsWeb.png';
-import imageGalleryImg from './Image Gallary.png';
+import bookImg from '../components/Book1.png';
+import timeBankImg from '../components/Time Bank.png';
+import supermarketImg from '../components/Supermarket.png';
+import girlsWebImg from '../components/GirlsWeb.png';
+import imageGalleryImg from '../components/Image Gallary.png';
 
 
 function Projects() {
