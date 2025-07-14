@@ -110,7 +110,7 @@ function Home() {
                             Resume
                         </button> */}
 <a
-      href="/Emnet Befkadu Resume%20%283%29.pdf"       // <-- Put your PDF file in public/resume.pdf
+      href="/Emnet%20Befkadu%20Resume.pdf"       // <-- Put your PDF file in public/resume.pdf
       target="_blank"          // <-- open in new tab
       rel="noopener noreferrer"
       className='rounded-full px-10 py-2 mt-9 bg-cyan-500 text-black font-bold text-lg shadow-md hover:bg-cyan-600 transition-all duration-300 inline-block text-center'
